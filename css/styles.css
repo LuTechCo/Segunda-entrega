@@ -1,0 +1,305 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #B8D0D9;
+}
+
+ul{ 
+    font-size: 17px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #022E40;
+    overflow: hidden;
+    float: none;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 25px 40px;
+    text-decoration: none;
+}
+
+#registrarse{
+    position: absolute;
+    right: 30px;
+    background-color: #F2C572;
+    border-radius: 50px;
+    color: black;
+    padding:10px 55px;
+    margin-top: 15px;
+}
+
+#registrarse:hover{
+    background-color:   #f1b951;
+    transition: all .4s ease;
+}
+
+.menu img{
+    float: left;
+    margin: 10px;
+    padding-left: 5px;
+    width: 50px;
+}
+
+.menu a:hover{
+    color: #F2C572;
+    transition: all .4s ease;
+
+}
+
+.inicio img{
+    height: 100%;
+    width: 100%;
+    filter: blur(5px);
+}
+
+.inicio p{
+    float: right;
+    position: absolute;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    top: 25%;
+    left: 10%;
+    margin-right: 150px;
+    font-family: "Kreon", serif;
+    text-align: center;
+}
+
+/* --------------------------------- Presentacion del inicio -------------------------------------------*/
+
+#titulo{
+    font-size: 45px;
+}
+
+#texto{
+    font-size: 40px;
+    -webkit-text-stroke: 2px black;
+}
+
+/* --------------------------------- Estilos del formulario de CONTACTO ------------------------------*/
+
+.form-container{
+    background-color: white;
+    margin: 100px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-65%, -65%);
+}
+
+.form-container h2{
+    text-align: center;
+    color:#0056b3;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.form-container p{
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.submit-button{
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.submit-button:hover{
+    background-color:  #0056b3;
+}
+
+.submit-button:active{
+    background-color: #004085;
+}
+
+.submit-button:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+/*------------------------------------ Quienes somos-------------------------*/
+.presentacion img{
+    width: 100%;
+    height: 150%;
+}
+
+.presentacion p{
+    float: right;
+    position: absolute;
+    color:white;
+    padding: 10px;
+    top: 25%;
+    left: 10%;
+    margin-top: -25px;
+    margin-right: 150px;
+    font-family: "Kreon", serif;
+    text-align: center;
+    font-size: 40px;
+    -webkit-text-stroke: 2px black;
+
+}
+
+.presentacion h1{
+    margin-top:70px;
+
+    margin-left: 500px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: "Kreon", serif;
+    font-size: 40px;
+}
+/* ------------------------------ Footer ---------------------------------------------------------*/
+
+ .footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+ }  
+
+ /* ----------------------------- Estilos del formulario de logueo ------------------------------------*/
+
+ .submit-button-logueo{
+    display: block;
+    width: 80%;
+    background-color: #F2C572;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: "Kreon", serif;
+}
+
+.submit-button-logIn{
+    display: block;
+    width: 80%;
+    background-color: #022E40;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    font-family: "Kreon", serif;
+}
+
+.submit-button-Google{
+    display: block;
+    width: 100%;
+    background-color:white;
+    color: black;
+    margin: 10px 0px;
+    padding: 12px 20px;
+    border-radius: none;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.icono {
+  position: absolute;
+  margin-top: 15px;
+  margin-bottom:20px;
+  margin-left: 140px;
+
+}
+
+.form-logueo label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-logueo input[type="email"],
+.form-logueo input[type="password"]{
+    display: block;
+    width: 97%;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: #D9D9D9;
+}
+
+#correo{
+    position: absolute;
+    margin: 10px 0 0 20px;
+}
+
+#contraseña{
+    position: absolute;
+    margin: 10px 0 0 20px;
+}
+
+#boton-google{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="imagenes/Untitled.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=swap" rel="stylesheet">
+    <title>Logueo</title>
+</head>
+<body>
+    <header>
+        <div id="menu-de-navegacion">
+            <nav id="navegador">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="quienes-somos.html">Quienes somos</a></li>
+                    <li><a id="registrarse" href="#">Sign-up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="menu-de-navegacion">
+            <nav id="navegador">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="quienes-somos.html">Quienes somos</a></li>
+                    <li><a id="registrarse" href="logueo.html">Sign-up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+              <div class="form-container">
+                
+                <form>
+                    <div class="icono">
+                    <i class="fa-brands fa-google"></i>
+                    </div>
+                    <button type="submit" class="submit-button-Google" id="boton-con-icono"><a id="boton-google" href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=AdBytiM5SajsLxsPORCVNoHMvyA5UFnbIg0UBZ59vj_svhZnp7e-FBGm7eJUA0F35h1uk8yDvPSIUQ&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1222146421%3A1752188516350311">Sign in With Google</a></button>
+
+                    <button type="submit" class="submit-button-logIn">Log in</button>
+
+                    <div class="form-logueo">
+                        <label id="correo" for="email">Correo@gmail.com</label>
+                        <input type="email" id="email" name="email" required >
+                    </div>
+
+                     <div class="form-logueo">
+                        <label id="contraseña" for="nombre">Contraseña</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    
+                    <button type="submit" class="submit-button-logueo">Unirme</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>
