@@ -1,0 +1,25 @@
+<?php
+// Datos a enviar
+$data = [
+    'nombre' => 'Ricardo',
+    'edad' => 42
+];
+
+// Inicializar cURL
+$ch = curl_init('http://localhost/api/register.php');
+
+// Configurar opciones
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_POST, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+
+// Ejecutar y obtener respuesta
+$response = curl_exec($ch);
+curl_close($ch);
+
+// Decodificar y mostrar
+$resultado = json_decode($response, true);
+echo "<pre>";
+print_r($resultado);
+echo "</pre>";
